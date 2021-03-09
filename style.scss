@@ -1,0 +1,11 @@
+@mixin par_1
+{
+  color: red;
+  text-decoration: underline;
+}
+
+
+.par_1
+{
+  @include par_1
+}
